@@ -52,6 +52,7 @@ enum JSONMappingLibrary: String {
   case SwiftyJSON
   case ObjectMapper
   case Marshal
+  case EVReflection
 }
 
 /**

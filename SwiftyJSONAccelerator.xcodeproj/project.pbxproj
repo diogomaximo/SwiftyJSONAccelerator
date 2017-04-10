@@ -111,6 +111,8 @@
 		C667011B1BDCABCE009BA254 /* SwiftyJSONTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C667011A1BDCABCE009BA254 /* SwiftyJSONTemplate.txt */; };
 		C667011D1BDCAF23009BA254 /* ObjectMapperTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C667011C1BDCAF23009BA254 /* ObjectMapperTemplate.txt */; };
 		C667011F1BDCBE1F009BA254 /* NSCodingTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C667011E1BDCBE1F009BA254 /* NSCodingTemplate.txt */; };
+		C8A88AEC1E92D8CA002A3EFD /* EVReflectionModelFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A88AEB1E92D8CA002A3EFD /* EVReflectionModelFile.swift */; };
+		C8A88AEE1E92DFCA002A3EFD /* EVReflectionTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C8A88AED1E92DFCA002A3EFD /* EVReflectionTemplate.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -189,6 +191,8 @@
 		C667011A1BDCABCE009BA254 /* SwiftyJSONTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftyJSONTemplate.txt; sourceTree = "<group>"; };
 		C667011C1BDCAF23009BA254 /* ObjectMapperTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ObjectMapperTemplate.txt; sourceTree = "<group>"; };
 		C667011E1BDCBE1F009BA254 /* NSCodingTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSCodingTemplate.txt; sourceTree = "<group>"; };
+		C8A88AEB1E92D8CA002A3EFD /* EVReflectionModelFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EVReflectionModelFile.swift; sourceTree = "<group>"; };
+		C8A88AED1E92DFCA002A3EFD /* EVReflectionTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EVReflectionTemplate.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -379,6 +383,7 @@
 			children = (
 				934F09F51E12DC4B00D983FF /* FileGeneratorExtension.swift */,
 				9327F2871DF4BCA70002BE40 /* MarshalModelFile.swift */,
+				C8A88AEB1E92D8CA002A3EFD /* EVReflectionModelFile.swift */,
 				93F1593F1CFF96E700175636 /* ObjectMapperModelFile.swift */,
 				93F1593D1CFF969900175636 /* SwiftyJSONModelFile.swift */,
 			);
@@ -458,6 +463,7 @@
 		93F5F2141D344CCC00FEB9C9 /* Library-Extension-Templates */ = {
 			isa = PBXGroup;
 			children = (
+				C8A88AED1E92DFCA002A3EFD /* EVReflectionTemplate.txt */,
 				9327F2891DF4BD540002BE40 /* MarshalTemplate.txt */,
 				C667011C1BDCAF23009BA254 /* ObjectMapperTemplate.txt */,
 				C667011A1BDCABCE009BA254 /* SwiftyJSONTemplate.txt */,
@@ -537,7 +543,7 @@
 					};
 					93F1743E1BD0707D007E7DFC = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = UYGU8PDBPS;
+						DevelopmentTeam = 5K7R4DJKWJ;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -574,6 +580,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A88AEE1E92DFCA002A3EFD /* EVReflectionTemplate.txt in Resources */,
 				93C273CB1E150CEA00CC1AED /* Main.storyboard in Resources */,
 				C667011B1BDCABCE009BA254 /* SwiftyJSONTemplate.txt in Resources */,
 				C667011F1BDCBE1F009BA254 /* NSCodingTemplate.txt in Resources */,
@@ -690,6 +697,7 @@
 				93F159361CFF83A800175636 /* String+Helpers.swift in Sources */,
 				93F174431BD0707D007E7DFC /* AppDelegate.swift in Sources */,
 				93E91B0D1CFF2DFF00ECA2A6 /* Constants.swift in Sources */,
+				C8A88AEC1E92D8CA002A3EFD /* EVReflectionModelFile.swift in Sources */,
 				93F159381CFF842D00175636 /* JSON+Helpers.swift in Sources */,
 				93F159401CFF96E700175636 /* ObjectMapperModelFile.swift in Sources */,
 			);
@@ -867,7 +875,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UYGU8PDBPS;
+				DEVELOPMENT_TEAM = 5K7R4DJKWJ;
 				INFOPLIST_FILE = SwiftyJSONAccelerator/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -884,7 +892,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UYGU8PDBPS;
+				DEVELOPMENT_TEAM = 5K7R4DJKWJ;
 				INFOPLIST_FILE = SwiftyJSONAccelerator/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
